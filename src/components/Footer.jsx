@@ -4,14 +4,14 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-950  p-10 mt-16">
-      <div className="px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row m-8">
-        <div className="flex flex-col mb-4 md:mb-0 gap-5 pr-36">
-          <h2 className="text-white text-4xl mr-4">
+    <footer className="bg-nav-footer p-10 mt-16">
+      <div className="container flex flex-col md:flex-row mx-auto">
+        <div className="flex flex-col mb-8 md:mb-0 md:mr-24">
+          <h2 className="text-white text-2xl md:text-4xl mr-4">
             <span className="font-bold">XYZ</span>{" "}
             <span className="italic font-light">INDUSTRIES</span>
           </h2>
-          <p className="text-gray-400 items-center justify-center max-w-sm text-pretty">
+          <p className="text-gray-400 max-w-md text-pretty">
             XYZ Industries: Where real estate dreams meet seamless transactions,
             transforming aspirations into achievements.
           </p>
@@ -41,23 +41,23 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-white font-semibold mb-2">Subscribe Us</h3>
-            <p className=" mb-2 text-gray-400">
+            <p className="mb-2 text-gray-400">
               Subscribe to our weekly newsletter
             </p>
-            <div>
+            <div className="flex flex-col md:flex-row">
               <input
                 type="email"
                 placeholder="Email Id"
-                className=" w-full py-2 px-4 focus:ring-blue-500 focus:border-transparent rounded-lg"
+                className="w-full md:w-64 py-2 px-4 focus:ring-blue-500 focus:border-transparent rounded-lg mb-2 md:mr-2"
               />
-              <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 rounded-lg">
+              <button className="w-full md:w-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 Subscribe
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="px-4 sm:px-6 lg:px-8 mt-4 border-t-2 border-gray-500 pt-4 flex justify-between items-center">
+      <div className="container mx-auto mt-4 border-t-2 border-gray-500 pt-4 flex justify-between items-center">
         <div className="flex space-x-4">
           <FaYoutube
             className="text-gray-400 hover:text-white transition-colors duration -300"
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
         <div className="flex text-gray-400 gap-2">
           <span>Terms </span> | <span> Privacy</span>
-          <div className="text-gray-400 mx-4">@ 2024 XYZ</div>
+          <div className="text-gray-400">@ 2024 XYZ</div>
         </div>
       </div>
     </footer>

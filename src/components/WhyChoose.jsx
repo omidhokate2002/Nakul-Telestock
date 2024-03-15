@@ -29,7 +29,7 @@ const FeatureList = () => {
   ];
 
   return (
-    <div className="bg-cyan-50 p-16 mt-16 mb-16 ">
+    <div className="bg-regal-blue p-16 mt-16 mb-16 ">
       <div className="flex flex-col items-center space-y-8 p-10">
         <h1 className="text-7xl font-bold">WHY CHOOSE XYZ?</h1>
       </div>
@@ -74,8 +74,8 @@ const FeatureList = () => {
 
         {/* Feature 4 */}
         <div className="flex flex-col relative">
-          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-transparent via-gray-500 to-transparent"></div>
-          <div className="p-6 mb-8  border-gray-500 border-l-2">
+          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-transparent via-gray-500 to-transparent ml"></div>
+          <div className="p-6 mb-8">
             <h3 className="text-7xl font-light mb-2">{features[3].id}</h3>
             <h4 className="text-xl font-bold mb-4 uppercase">
               {features[3].title}
